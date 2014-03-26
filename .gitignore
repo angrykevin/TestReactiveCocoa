@@ -1,5 +1,7 @@
-TestReactiveCocoa.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/project.xcworkspace/
 
-TestReactiveCocoa.xcodeproj/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+
+**/*.xcworkspace/xcuserdata/
 
 .DS_Store
