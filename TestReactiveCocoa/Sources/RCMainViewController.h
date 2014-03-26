@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RCMainViewController : UIViewController {
-  UITextField *_textField;
+  UITextField *_nameField;
+  UITextField *_codeField;
+  UIButton *_button;
 }
 
 @end
