@@ -15,6 +15,18 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  
+  _textField = [[UITextField alloc] init];
+  _textField.borderStyle = UITextBorderStyleLine;
+  [self.view addSubview:_textField];
+  
+  _textField.frame = CGRectMake(10.0, 74.0, 300.0, 40.0);
+  
+  
+  [_textField.rac_textSignal subscribeNext:^(id x) {
+    NSLog(@"%@", x);
+  }];
+  
 }
 
 

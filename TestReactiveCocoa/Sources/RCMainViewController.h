@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RCMainViewController : UIViewController {
+  UITextField *_textField;
 }
 
 @end
