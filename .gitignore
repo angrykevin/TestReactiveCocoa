@@ -1,7 +1,7 @@
-**/*.xcodeproj/project.xcworkspace/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
 
-**/*.xcodeproj/xcuserdata/
-
-**/*.xcworkspace/xcuserdata/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
 
 .DS_Store
